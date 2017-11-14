@@ -280,8 +280,8 @@ class Time
 
   /**
    * Returns a string representing the argument value, adding a leading
-   * "0" if needed to make it at least two digits long.
-   * Do not change this.
+   * "0" if needed to make it two digits long. Assumes the argument value
+   * is a one- or two-digit positive integer.
    */
   private String pad(int value)
   {
